@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+html{
+    position: relative;
+    background: #101010;
+}
+#img{
+    margin-left: 10px;
+    text-align: left;
+}
+#descr{
+    margin-right: 10px;
+    text-align: right;
+}
+#title_doc, #descr{
+    background: #101010;
+    text-align: right;
+
+    font-size: 30pt;
+    color: white;
+    font-family: Arial;
+    /*font-family: SF Pro Display;*/
+    /*src: url('Font/SF');*/
+    font-weight: normal;
+    font-style: normal;
+
+    width: 100%;
+    background:rgba(0,0,0,0.85) ;
+
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    min-height: 0;
+}
+.try_code{
+    background: black;
+    color: white;
+    text-align: left;
+    padding: 1em;
+    margin-left: 20pt;
+    padding-left: 3em;
+
+    margin-right: 20pt;
+}
+.try_code h1{
+    font-size: 3em;
+}
+.try_code p{
+    color: rgba(86,86,86,1);
+}
